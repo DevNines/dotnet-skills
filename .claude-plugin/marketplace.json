@@ -1,0 +1,20 @@
+{
+  "name": "devnines-skills",
+  "owner": {
+    "name": "DevNines",
+    "url": "https://github.com/DevNines"
+  },
+  "metadata": {
+    "description": "Version-aware .NET skills by DevNines.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "devnines-dotnet-skills",
+      "source": "./",
+      "description": "Eight version-aware .NET skills: Ardalis.GuardClauses, Ardalis.Result, Ardalis.SmartEnum, Ardalis.Specification, FastEndpoints, NSubstitute, Shouldly, and Stripe.net.",
+      "category": "development",
+      "keywords": ["dotnet", "csharp", "ardalis", "fastendpoints", "stripe", "testing"]
+    }
+  ]
+}

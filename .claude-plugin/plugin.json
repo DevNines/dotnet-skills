@@ -1,0 +1,22 @@
+{
+  "name": "devnines-dotnet-skills",
+  "version": "1.0.0",
+  "description": "Version-aware Claude Code skills for the .NET ecosystem: Ardalis.GuardClauses, Ardalis.Result, Ardalis.SmartEnum, Ardalis.Specification, FastEndpoints, NSubstitute, Shouldly, and Stripe.net. Each skill detects the exact package version a project pins and loads reference material generated against that version.",
+  "author": {
+    "name": "DevNines",
+    "url": "https://github.com/DevNines"
+  },
+  "homepage": "https://github.com/DevNines/dotnet-skills",
+  "repository": "https://github.com/DevNines/dotnet-skills",
+  "license": "MIT",
+  "keywords": [
+    "dotnet",
+    "csharp",
+    "ardalis",
+    "fastendpoints",
+    "nsubstitute",
+    "shouldly",
+    "stripe",
+    "skills"
+  ]
+}

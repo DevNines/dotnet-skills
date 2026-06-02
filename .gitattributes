@@ -1,0 +1,17 @@
+# Force LF line endings on text files in this repo.
+#
+# Skill reference files (.md) and the plugin manifests (.json) are mirrored
+# here from the source repo by a GitHub Action running on Linux (LF). Pinning
+# eol=lf keeps the diff on each sync limited to real content changes rather
+# than spurious whole-file line-ending churn.
+
+*.md   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+
+# VERSIONS ledgers (no extension) are plain text, LF.
+VERSIONS text eol=lf
